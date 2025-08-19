@@ -1,0 +1,43 @@
+body {
+    background-color: rgba(47, 37, 173, 0.692);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+a {
+    text-align: center;
+
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: purple;
+}
+p {
+    color: rgb(238, 10, 10);
+    text-align: center;
+    font-size: 30px;
+
+
+}
+img {
+    max-width: 100%;
+}
+home image {
+    width: 800px;
+}
+about image {
+    width: 700px;
+
+}
