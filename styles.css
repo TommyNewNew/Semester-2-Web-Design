@@ -1,9 +1,17 @@
+:root {
+    --vivid-sky-blue: hsla(191, 85%, 52%, 1);
+    --columbia-blue: hsla(199, 53%, 79%, 1);
+    --mountbatten-pink: hsla(327, 27%, 57%, 1);
+    --murrey: hsla(331, 62%, 34%, 1);
+    --chocolate-cosmos: hsla(359, 56%, 23%, 1);
+}
 body {
-    background-color: rgba(47, 37, 173, 0.692);
+    background-color: var(--mountbatten-pink);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    color: white;
+    font-size: 14px;
+    color: var(--vivid-sky-blue);
     text-align: center;
+    margin: 0px;
 }
 h1 {
     text-align: center;
@@ -39,5 +47,34 @@ home image {
 }
 about image {
     width: 700px;
+
+}
+/* header for page */
+.page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--murrey);
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.logo {
+    max-width: 100px;
+    min-width: 60px;
+    padding: 10px;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.navigation a {
+    color: white;   
+    text-decoration: none;
+    padding; 10px; 
 
 }
