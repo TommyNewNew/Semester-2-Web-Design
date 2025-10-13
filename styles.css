@@ -76,5 +76,18 @@ about image {
     color: white;   
     text-decoration: none;
     padding; 10px; 
+}
 
+.nav-button {
+    background-color: transparent;
+    width: 44px;
+    height: 44px;
+    border-style: solid;
+    border-color: var(--mountbatten-pink);
+    vorder-radius: 5px;
+    display: none;
+
+}
+.nav-button img {
+    width: 40px;
 }
