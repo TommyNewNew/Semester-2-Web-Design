@@ -73,9 +73,13 @@ about image {
     gap: 10px;
 }
 .navigation a {
-    color: white;   
+    color: black;   
     text-decoration: none;
     padding: 10px; 
+    font-size: 24px
+}
+.navigation a:hover {
+    color: var(--columbia-blue)
 }
 
 .nav-button {
@@ -115,4 +119,13 @@ about image {
 }
 #main {
     display: flex;
+}
+
+.sr-only {
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
 }

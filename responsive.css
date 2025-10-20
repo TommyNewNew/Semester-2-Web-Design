@@ -1,6 +1,14 @@
 @media screen and (max-width: 480px) {
     .logo {
         max-width: 50px;
+        
+    }
+    .logo-link {
+        align-self: flex-start;
+    }
+
+    .page-header {
+        justify-content: flex-start;
     }
     .nav-button {
         display: block;
@@ -13,5 +21,11 @@
         flex-direction: column;
         max-height: 0px;
         overflow: hidden;
+    }
+    #search {
+        min-width: 60px;
+    }
+    #user-nav a:nth-child(1) {
+        display: none;
     }
 } 
