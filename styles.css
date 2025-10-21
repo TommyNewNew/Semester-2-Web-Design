@@ -63,7 +63,7 @@ about image {
 }
 .logo {
     max-width: 100px;
-    min-width: 60px;
+    min-width: 40px;
     padding: 10px;
 }
 .navigation {
@@ -99,7 +99,7 @@ about image {
 #search {
     display: flex;
     flex-direction: row;
-    min-width: 400px;
+    min-width: 50px;
     max-width: 100%;
 
 }
