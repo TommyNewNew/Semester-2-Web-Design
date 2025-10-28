@@ -10,14 +10,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: var(--vivid-sky-blue);
-    text-align: center;
+    text-align: left ;
     margin: 0px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
 }
 h1 {
     text-align: center;
 }
 a {
-    text-align: center;
+    text-align: left;
 
 }
 a:link {
@@ -119,6 +122,7 @@ about image {
 }
 #main {
     display: flex;
+    
 }
 
 .sr-only {
@@ -128,4 +132,70 @@ top:auto;
 width:1px;
 height:1px;
 overflow:hidden;
+}
+
+/* --------------- carousel ---------------- */
+.slide {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+.slide h2 {
+    font-size: 3.5em;
+    text-shadow: -2px 0px 5px black;
+}
+.slide button {
+    padding: 10px;
+    background-color: var(--columbia-blue);
+    min-width: 150px;
+    border: solid 1px var(--mountbatten-pink);
+    border-radius: 8px;
+}
+
+.slide:nth-child(1) {
+    background-image: url("/images/Slider/halloween7.jpg")
+    
+}
+nav a {
+    text-decoration: none;
+}
+.main-footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: var(--murrey);
+    padding: 20px 30px;
+    
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-nav a, .social-nav a, .legal-nav a {
+    color: white
+}
+.social-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 120%;
+    
+}
+
+.legal-nav {
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    gap: 20px;
+    padding: 10px;
 }
