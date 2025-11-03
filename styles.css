@@ -165,6 +165,19 @@ overflow:hidden;
     background-image: url("/images/Slider/halloween7.jpg")
     
 }
+
+.slide:nth-child(2) {
+    background-image: url("/images/Slider/new-shoes.jpg")
+}
+
+.slide:nth-child(3) {
+    background-image: url("/images/Slider/black-friday-shoes.webp")
+}
+
+.slide:nth-child(4) {
+    background-image: url("/images/Slider/trending-shoes.jpg")
+}
+
 nav a {
     text-decoration: none;
 }
@@ -198,4 +211,38 @@ nav a {
     min-width: 100%;
     gap: 20px;
     padding: 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+
+}
+
+.card img {
+    max-width: 100%;
+}
+.card-content {
+    padding: 15px;
+}
+.card {
+    flex: 1;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card button {
+    min-width: 100%;
+    padding: 12px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.main-content {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80vw;
 }
