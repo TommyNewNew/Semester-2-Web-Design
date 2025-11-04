@@ -51,4 +51,19 @@
     #search input {
         max-width: 100%;
     }
+    .main-content {
+        max-width: 100vw;
+        
+    }
+    .card  {
+        min-width: 30vw;
+        flex-shrink: 0;
+        width: 300px;
+    }
+    .card-container {
+        width: 170vw;
+    }
+    .scrollbox {
+        overflow-x: scroll;
+    }
 } 
