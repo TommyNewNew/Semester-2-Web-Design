@@ -66,4 +66,11 @@
     .scrollbox {
         overflow-x: scroll;
     }
+    .card-container.contact {
+        min-width: auto;
+        flex-wrap: wrap;
+    }
+    .card-container.contact .card {
+        min-width: 300px;
+    }
 } 
